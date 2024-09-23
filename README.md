@@ -1,4 +1,4 @@
-# Logistics Optimization Project
+
 
 ## Overview
 This project implements a logistics optimization solution for truck assignments and route planning based on customer orders. It leverages data from sales orders, customer locations, and truck capacities to optimize delivery routes and visualize the results.
@@ -22,14 +22,14 @@ This project implements a logistics optimization solution for truck assignments 
 ### 1. Optimized Route Map
 This map visualizes the optimized delivery route, highlighting customer locations along the path. Each customer is marked with a number indicating the sequence of visits, and the route is illustrated with arrows.
 
-![Optimized Route Map](path/to/route_map_image.png)
+
+<img width="938" alt="Screenshot 1446-03-20 at 3 09 05 AM" src="https://github.com/user-attachments/assets/c0787a79-df57-40e4-b825-69a5706031b9">
 
 *The green marker indicates the starting point, while the red marker represents the endpoint. The blue lines show the optimized route connecting the customers.*
 
-
-
 ### 2. Bar Chart of Total Pallets Assigned per Truck
-![Bar Chart](path/to/bar_chart_image.png)
+
+![Unknown-25](https://github.com/user-attachments/assets/f79ccfeb-95fe-4955-bf35-e9f86243b31f)
 *This bar chart illustrates the total number of pallets assigned to each truck, highlighting the workload distribution.*
 
 ## Requirements
