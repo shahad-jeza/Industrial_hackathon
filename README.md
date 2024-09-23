@@ -19,9 +19,14 @@ This project implements a logistics optimization solution for truck assignments 
 7. **Visualization**: Generates a geographical heatmap to visualize customer density and a bar chart to show the total pallets assigned to each truck.
 
 ## Outputs
-### 1. Geographical Heatmap
-![Geographical Heatmap](path/to/heatmap_image.png)
-*This heatmap shows the distribution of customer locations based on density.*
+### 1. Optimized Route Map
+This map visualizes the optimized delivery route, highlighting customer locations along the path. Each customer is marked with a number indicating the sequence of visits, and the route is illustrated with arrows.
+
+![Optimized Route Map](path/to/route_map_image.png)
+
+*The green marker indicates the starting point, while the red marker represents the endpoint. The blue lines show the optimized route connecting the customers.*
+
+
 
 ### 2. Bar Chart of Total Pallets Assigned per Truck
 ![Bar Chart](path/to/bar_chart_image.png)
@@ -35,7 +40,3 @@ This project implements a logistics optimization solution for truck assignments 
 - Seaborn
 - OR-Tools
 
-## Installation
-To install the required packages, you can use the following pip command:
-```bash
-pip install pandas folium matplotlib seaborn ortools
