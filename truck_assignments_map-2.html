@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d1a25db525d785484ba842d441a553ec {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d1a25db525d785484ba842d441a553ec" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d1a25db525d785484ba842d441a553ec = L.map(
+                "map_d1a25db525d785484ba842d441a553ec",
+                {
+                    center: [21.560372349999998, 39.205971142678564],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ec54ff4fd95500f28f6370f3ad1a9a8b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_ec54ff4fd95500f28f6370f3ad1a9a8b.addTo(map_d1a25db525d785484ba842d441a553ec);
+        
+    
+            var marker_4ace4555c03c2a7c6eb588b971f32775 = L.marker(
+                [21.78962485, 39.12966513],
+                {}
+            ).addTo(map_d1a25db525d785484ba842d441a553ec);
+        
+    
+            var icon_bc21542dd243d2d197e531bc1ec6cc90 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4ace4555c03c2a7c6eb588b971f32775.setIcon(icon_bc21542dd243d2d197e531bc1ec6cc90);
+        
+    
+        var popup_b6f801be1e48e6adafdc968564674af3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dee12082d06701a2d04d8dfaf5629183 = $(`<div id="html_dee12082d06701a2d04d8dfaf5629183" style="width: 100.0%; height: 100.0%;">Customer: 100022.0<br>Assigned Truck: TruckA8 1</div>`)[0];
+                popup_b6f801be1e48e6adafdc968564674af3.setContent(html_dee12082d06701a2d04d8dfaf5629183);
+            
+        
+
+        marker_4ace4555c03c2a7c6eb588b971f32775.bindPopup(popup_b6f801be1e48e6adafdc968564674af3)
+        ;
+
+        
+    
+    
+            var marker_b91d0947170f73fc6795084a566674d5 = L.marker(
+                [21.4607257, 39.2468377],
+                {}
+            ).addTo(map_d1a25db525d785484ba842d441a553ec);
+        
+    
+            var icon_f6f5d4373d718a3cc1726490f2f3b33e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b91d0947170f73fc6795084a566674d5.setIcon(icon_f6f5d4373d718a3cc1726490f2f3b33e);
+        
+    
+        var popup_1817095048f7d9841be8fdc389f0be60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e976ecf17fb6c0ce99a4f2f44bc45fd = $(`<div id="html_5e976ecf17fb6c0ce99a4f2f44bc45fd" style="width: 100.0%; height: 100.0%;">Customer: 100096.0<br>Assigned Truck: TruckA8 1</div>`)[0];
+                popup_1817095048f7d9841be8fdc389f0be60.setContent(html_5e976ecf17fb6c0ce99a4f2f44bc45fd);
+            
+        
+
+        marker_b91d0947170f73fc6795084a566674d5.bindPopup(popup_1817095048f7d9841be8fdc389f0be60)
+        ;
+
+        
+    
+    
+            var marker_3fb53dfc9d81fc769c4bb699f2da9103 = L.marker(
+                [21.40930802, 39.25782021],
+                {}
+            ).addTo(map_d1a25db525d785484ba842d441a553ec);
+        
+    
+            var icon_c1b285b8db97637ea9034e78e4629622 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3fb53dfc9d81fc769c4bb699f2da9103.setIcon(icon_c1b285b8db97637ea9034e78e4629622);
+        
+    
+        var popup_fced60949d4a3de6258c303b919ab36f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61977dc7cc5102348d694a11a76a105d = $(`<div id="html_61977dc7cc5102348d694a11a76a105d" style="width: 100.0%; height: 100.0%;">Customer: 100099.0<br>Assigned Truck: TruckA8 1</div>`)[0];
+                popup_fced60949d4a3de6258c303b919ab36f.setContent(html_61977dc7cc5102348d694a11a76a105d);
+            
+        
+
+        marker_3fb53dfc9d81fc769c4bb699f2da9103.bindPopup(popup_fced60949d4a3de6258c303b919ab36f)
+        ;
+
+        
+    
+    
+            var marker_346557eb8b26c1d7056d020eec7028f0 = L.marker(
+                [21.51479333, 39.16489833],
+                {}
+            ).addTo(map_d1a25db525d785484ba842d441a553ec);
+        
+    
+            var icon_8edf949112e9a062d1fbcb8b389a9195 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_346557eb8b26c1d7056d020eec7028f0.setIcon(icon_8edf949112e9a062d1fbcb8b389a9195);
+        
+    
+        var popup_e2929aedf1fb1c975f0b674ef93846aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66525b96b8f49924484c922f6f1fe616 = $(`<div id="html_66525b96b8f49924484c922f6f1fe616" style="width: 100.0%; height: 100.0%;">Customer: 100258.0<br>Assigned Truck: TruckA8 1</div>`)[0];
+                popup_e2929aedf1fb1c975f0b674ef93846aa.setContent(html_66525b96b8f49924484c922f6f1fe616);
+            
+        
+
+        marker_346557eb8b26c1d7056d020eec7028f0.bindPopup(popup_e2929aedf1fb1c975f0b674ef93846aa)
+        ;
+
+        
+    
+    
+            var marker_8c42975f9aea53a7bb9f0f8707c2e8b3 = L.marker(
+                [21.58334166, 39.12929166],
+                {}
+            ).addTo(map_d1a25db525d785484ba842d441a553ec);
+        
+    
+            var icon_d71ff195d01c40ead377456d53e1695a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8c42975f9aea53a7bb9f0f8707c2e8b3.setIcon(icon_d71ff195d01c40ead377456d53e1695a);
+        
+    
+        var popup_fe45356e32710ce261cd83dc82063b4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b968accbb179c416e85375b1bb2cf6b8 = $(`<div id="html_b968accbb179c416e85375b1bb2cf6b8" style="width: 100.0%; height: 100.0%;">Customer: 100297.0<br>Assigned Truck: TruckB6 1</div>`)[0];
+                popup_fe45356e32710ce261cd83dc82063b4a.setContent(html_b968accbb179c416e85375b1bb2cf6b8);
+            
+        
+
+        marker_8c42975f9aea53a7bb9f0f8707c2e8b3.bindPopup(popup_fe45356e32710ce261cd83dc82063b4a)
+        ;
+
+        
+    
+    
+            var marker_6879739dc8aa2e39747cd1a05b3110e2 = L.marker(
+                [21.75840166, 39.189875],
+                {}
+            ).addTo(map_d1a25db525d785484ba842d441a553ec);
+        
+    
+            var icon_afe6828adc16eb54e1668beed56d2c19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6879739dc8aa2e39747cd1a05b3110e2.setIcon(icon_afe6828adc16eb54e1668beed56d2c19);
+        
+    
+        var popup_e6690dc8213c7499b38fae0ab0523408 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01325ea3ae62c2b53fe5f191f5774b10 = $(`<div id="html_01325ea3ae62c2b53fe5f191f5774b10" style="width: 100.0%; height: 100.0%;">Customer: 100364.0<br>Assigned Truck: TruckB6 1</div>`)[0];
+                popup_e6690dc8213c7499b38fae0ab0523408.setContent(html_01325ea3ae62c2b53fe5f191f5774b10);
+            
+        
+
+        marker_6879739dc8aa2e39747cd1a05b3110e2.bindPopup(popup_e6690dc8213c7499b38fae0ab0523408)
+        ;
+
+        
+    
+    
+            var marker_3fbb16b4fa5c64704e1192e1b7371f46 = L.marker(
+                [21.576593, 39.24061],
+                {}
+            ).addTo(map_d1a25db525d785484ba842d441a553ec);
+        
+    
+            var icon_2a6dfebc70a78eda55ae726702f8e089 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3fbb16b4fa5c64704e1192e1b7371f46.setIcon(icon_2a6dfebc70a78eda55ae726702f8e089);
+        
+    
+        var popup_7e778669f0b426dc397fdf65fccdaf9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c23cdbfe5f98f4c7127b7c9fc1ac700f = $(`<div id="html_c23cdbfe5f98f4c7127b7c9fc1ac700f" style="width: 100.0%; height: 100.0%;">Customer: 100388.0<br>Assigned Truck: TruckA8 1</div>`)[0];
+                popup_7e778669f0b426dc397fdf65fccdaf9b.setContent(html_c23cdbfe5f98f4c7127b7c9fc1ac700f);
+            
+        
+
+        marker_3fbb16b4fa5c64704e1192e1b7371f46.bindPopup(popup_7e778669f0b426dc397fdf65fccdaf9b)
+        ;
+
+        
+    
+    
+            var marker_88462169926edffd5537c3b5fd08e2fb = L.marker(
+                [21.41975666, 39.29488833],
+                {}
+            ).addTo(map_d1a25db525d785484ba842d441a553ec);
+        
+    
+            var icon_5f715dcc509ce82f03d82b2a362bfd9b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_88462169926edffd5537c3b5fd08e2fb.setIcon(icon_5f715dcc509ce82f03d82b2a362bfd9b);
+        
+    
+        var popup_260ea01f9c296f129b74ed394daa340f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3729151e8084471db57390b8f92b3c0 = $(`<div id="html_c3729151e8084471db57390b8f92b3c0" style="width: 100.0%; height: 100.0%;">Customer: 100452.0<br>Assigned Truck: TruckB6 2</div>`)[0];
+                popup_260ea01f9c296f129b74ed394daa340f.setContent(html_c3729151e8084471db57390b8f92b3c0);
+            
+        
+
+        marker_88462169926edffd5537c3b5fd08e2fb.bindPopup(popup_260ea01f9c296f129b74ed394daa340f)
+        ;
+
+        
+    
+    
+            var marker_f592097762bd937c4381ea165e078dbe = L.marker(
+                [21.309315, 39.26082833],
+                {}
+            ).addTo(map_d1a25db525d785484ba842d441a553ec);
+        
+    
+            var icon_506f89fa5b407ee24a091304984ae6fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f592097762bd937c4381ea165e078dbe.setIcon(icon_506f89fa5b407ee24a091304984ae6fc);
+        
+    
+        var popup_5928cbb46f42f41b3728a5eccb69e0cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f20382e302abcca787fb68c2ef8f51c = $(`<div id="html_2f20382e302abcca787fb68c2ef8f51c" style="width: 100.0%; height: 100.0%;">Customer: 100480.0<br>Assigned Truck: TruckB6 3</div>`)[0];
+                popup_5928cbb46f42f41b3728a5eccb69e0cd.setContent(html_2f20382e302abcca787fb68c2ef8f51c);
+            
+        
+
+        marker_f592097762bd937c4381ea165e078dbe.bindPopup(popup_5928cbb46f42f41b3728a5eccb69e0cd)
+        ;
+
+        
+    
+    
+            var marker_dd8a989937c6b0ed056149d7942961a5 = L.marker(
+                [21.61951666, 39.19491833],
+                {}
+            ).addTo(map_d1a25db525d785484ba842d441a553ec);
+        
+    
+            var icon_2e5aecf1a74d294b2bba12a4ca17306b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dd8a989937c6b0ed056149d7942961a5.setIcon(icon_2e5aecf1a74d294b2bba12a4ca17306b);
+        
+    
+        var popup_bda26e61e421a3c6c992cfc0ee1cbffc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a30182bf8a9946013df47841dfc4c3de = $(`<div id="html_a30182bf8a9946013df47841dfc4c3de" style="width: 100.0%; height: 100.0%;">Customer: 100491.0<br>Assigned Truck: TruckA8 1</div>`)[0];
+                popup_bda26e61e421a3c6c992cfc0ee1cbffc.setContent(html_a30182bf8a9946013df47841dfc4c3de);
+            
+        
+
+        marker_dd8a989937c6b0ed056149d7942961a5.bindPopup(popup_bda26e61e421a3c6c992cfc0ee1cbffc)
+        ;
+
+        
+    
+    
+            var marker_6a7428afa0c39881674654d1b3949791 = L.marker(
+                [21.77768574, 39.21662264],
+                {}
+            ).addTo(map_d1a25db525d785484ba842d441a553ec);
+        
+    
+            var icon_ea50c5f24dde751e570956e353df3b4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6a7428afa0c39881674654d1b3949791.setIcon(icon_ea50c5f24dde751e570956e353df3b4f);
+        
+    
+        var popup_df260bf119e9d16e01bb8bc7e1949e26 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_697d55bc68e338ae2a3298c81ad555b1 = $(`<div id="html_697d55bc68e338ae2a3298c81ad555b1" style="width: 100.0%; height: 100.0%;">Customer: 100495.0<br>Assigned Truck: TruckB6 2</div>`)[0];
+                popup_df260bf119e9d16e01bb8bc7e1949e26.setContent(html_697d55bc68e338ae2a3298c81ad555b1);
+            
+        
+
+        marker_6a7428afa0c39881674654d1b3949791.bindPopup(popup_df260bf119e9d16e01bb8bc7e1949e26)
+        ;
+
+        
+    
+    
+            var marker_6b95ed4f2de2ffaf342346286b000abb = L.marker(
+                [21.79755704, 39.13822987],
+                {}
+            ).addTo(map_d1a25db525d785484ba842d441a553ec);
+        
+    
+            var icon_e0451eda8e943618e765aba88e049dfb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6b95ed4f2de2ffaf342346286b000abb.setIcon(icon_e0451eda8e943618e765aba88e049dfb);
+        
+    
+        var popup_d475e9a4024acfc42b672e65352bebc7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d0d187d2284705fab7f882e0bd323b5 = $(`<div id="html_3d0d187d2284705fab7f882e0bd323b5" style="width: 100.0%; height: 100.0%;">Customer: 100574.0<br>Assigned Truck: TruckB6 2</div>`)[0];
+                popup_d475e9a4024acfc42b672e65352bebc7.setContent(html_3d0d187d2284705fab7f882e0bd323b5);
+            
+        
+
+        marker_6b95ed4f2de2ffaf342346286b000abb.bindPopup(popup_d475e9a4024acfc42b672e65352bebc7)
+        ;
+
+        
+    
+    
+            var marker_4d6ea063145de04d3822c0341ec07e2a = L.marker(
+                [21.30870532, 39.26200066],
+                {}
+            ).addTo(map_d1a25db525d785484ba842d441a553ec);
+        
+    
+            var icon_8a58e698b421e9b1ccafe1a08c3d9046 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4d6ea063145de04d3822c0341ec07e2a.setIcon(icon_8a58e698b421e9b1ccafe1a08c3d9046);
+        
+    
+        var popup_ec8fcf71a4a8e7c86e4465b429685883 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82075d5399cceb5a33caa7de903f0d64 = $(`<div id="html_82075d5399cceb5a33caa7de903f0d64" style="width: 100.0%; height: 100.0%;">Customer: 100575.0<br>Assigned Truck: TruckB6 2</div>`)[0];
+                popup_ec8fcf71a4a8e7c86e4465b429685883.setContent(html_82075d5399cceb5a33caa7de903f0d64);
+            
+        
+
+        marker_4d6ea063145de04d3822c0341ec07e2a.bindPopup(popup_ec8fcf71a4a8e7c86e4465b429685883)
+        ;
+
+        
+    
+    
+            var marker_bc0fd67ea2220b5ef27106358445b291 = L.marker(
+                [21.5959682, 39.1674466],
+                {}
+            ).addTo(map_d1a25db525d785484ba842d441a553ec);
+        
+    
+            var icon_f7e0f2767d463b1f98cc90401272b9e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bc0fd67ea2220b5ef27106358445b291.setIcon(icon_f7e0f2767d463b1f98cc90401272b9e1);
+        
+    
+        var popup_77a5ffb40996096907b33e0b9e761784 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_940cbc6a8a76d8146020701d9829046e = $(`<div id="html_940cbc6a8a76d8146020701d9829046e" style="width: 100.0%; height: 100.0%;">Customer: 100956.0<br>Assigned Truck: TruckB6 2</div>`)[0];
+                popup_77a5ffb40996096907b33e0b9e761784.setContent(html_940cbc6a8a76d8146020701d9829046e);
+            
+        
+
+        marker_bc0fd67ea2220b5ef27106358445b291.bindPopup(popup_77a5ffb40996096907b33e0b9e761784)
+        ;
+
+        
+    
+    
+            var marker_4733b393dc60b2a930edabb5a65a1f7f = L.marker(
+                [21.78201066, 39.08563463],
+                {}
+            ).addTo(map_d1a25db525d785484ba842d441a553ec);
+        
+    
+            var icon_79306d8c1eac60521625bb164618fda9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4733b393dc60b2a930edabb5a65a1f7f.setIcon(icon_79306d8c1eac60521625bb164618fda9);
+        
+    
+        var popup_47a90c0ea753dbe07b97284a792852b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dea93225fb9d5e9d388064ba8a1e53cb = $(`<div id="html_dea93225fb9d5e9d388064ba8a1e53cb" style="width: 100.0%; height: 100.0%;">Customer: 100997.0<br>Assigned Truck: TruckB6 4</div>`)[0];
+                popup_47a90c0ea753dbe07b97284a792852b2.setContent(html_dea93225fb9d5e9d388064ba8a1e53cb);
+            
+        
+
+        marker_4733b393dc60b2a930edabb5a65a1f7f.bindPopup(popup_47a90c0ea753dbe07b97284a792852b2)
+        ;
+
+        
+    
+    
+            var marker_6e54225ab0904c1a92a18d416aec5d1d = L.marker(
+                [21.76398492, 39.20398858],
+                {}
+            ).addTo(map_d1a25db525d785484ba842d441a553ec);
+        
+    
+            var icon_eae015997241bd3ebe2ab0cff8053b91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6e54225ab0904c1a92a18d416aec5d1d.setIcon(icon_eae015997241bd3ebe2ab0cff8053b91);
+        
+    
+        var popup_32c35bb10aa76ea2ed6bd2ab65d726a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51a5141eb29eebc34629696d2aa7e876 = $(`<div id="html_51a5141eb29eebc34629696d2aa7e876" style="width: 100.0%; height: 100.0%;">Customer: 101605.0<br>Assigned Truck: TruckB6 4</div>`)[0];
+                popup_32c35bb10aa76ea2ed6bd2ab65d726a7.setContent(html_51a5141eb29eebc34629696d2aa7e876);
+            
+        
+
+        marker_6e54225ab0904c1a92a18d416aec5d1d.bindPopup(popup_32c35bb10aa76ea2ed6bd2ab65d726a7)
+        ;
+
+        
+    
+    
+            var marker_2fff502693efb83fd1d99c48151bcec6 = L.marker(
+                [21.7710044, 39.2204109],
+                {}
+            ).addTo(map_d1a25db525d785484ba842d441a553ec);
+        
+    
+            var icon_b29609ed2eb7279a496babcd011597be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2fff502693efb83fd1d99c48151bcec6.setIcon(icon_b29609ed2eb7279a496babcd011597be);
+        
+    
+        var popup_a026e325fbf3e76740231098a1f64a09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ce778285efbf430790f6a15c74684b0 = $(`<div id="html_0ce778285efbf430790f6a15c74684b0" style="width: 100.0%; height: 100.0%;">Customer: 101617.0<br>Assigned Truck: TruckB6 4</div>`)[0];
+                popup_a026e325fbf3e76740231098a1f64a09.setContent(html_0ce778285efbf430790f6a15c74684b0);
+            
+        
+
+        marker_2fff502693efb83fd1d99c48151bcec6.bindPopup(popup_a026e325fbf3e76740231098a1f64a09)
+        ;
+
+        
+    
+    
+            var marker_7f2956df60d197b9ce686a240e053412 = L.marker(
+                [21.41888093, 39.19221498],
+                {}
+            ).addTo(map_d1a25db525d785484ba842d441a553ec);
+        
+    
+            var icon_eb0fb0772772e4de63b2b653497acc20 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7f2956df60d197b9ce686a240e053412.setIcon(icon_eb0fb0772772e4de63b2b653497acc20);
+        
+    
+        var popup_fa232fa1ec160a84af03cafa0c2bd8ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd5940f796a7fd08753209be1cd2d221 = $(`<div id="html_dd5940f796a7fd08753209be1cd2d221" style="width: 100.0%; height: 100.0%;">Customer: 101720.0<br>Assigned Truck: TruckB6 4</div>`)[0];
+                popup_fa232fa1ec160a84af03cafa0c2bd8ad.setContent(html_dd5940f796a7fd08753209be1cd2d221);
+            
+        
+
+        marker_7f2956df60d197b9ce686a240e053412.bindPopup(popup_fa232fa1ec160a84af03cafa0c2bd8ad)
+        ;
+
+        
+    
+    
+            var marker_f2e8c668b75f0e579cc51769125ae15d = L.marker(
+                [21.56484246, 39.19117289],
+                {}
+            ).addTo(map_d1a25db525d785484ba842d441a553ec);
+        
+    
+            var icon_8015f8f0592dab4e52aae95af802acee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f2e8c668b75f0e579cc51769125ae15d.setIcon(icon_8015f8f0592dab4e52aae95af802acee);
+        
+    
+        var popup_58dc02058ab49fe0c0f243b5fffa47be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41f66fccb7b24f571a22eb04168e6278 = $(`<div id="html_41f66fccb7b24f571a22eb04168e6278" style="width: 100.0%; height: 100.0%;">Customer: 101725.0<br>Assigned Truck: TruckB6 5</div>`)[0];
+                popup_58dc02058ab49fe0c0f243b5fffa47be.setContent(html_41f66fccb7b24f571a22eb04168e6278);
+            
+        
+
+        marker_f2e8c668b75f0e579cc51769125ae15d.bindPopup(popup_58dc02058ab49fe0c0f243b5fffa47be)
+        ;
+
+        
+    
+    
+            var marker_6685063eb995d2c04f374680842e3b75 = L.marker(
+                [21.58954062, 39.21799285],
+                {}
+            ).addTo(map_d1a25db525d785484ba842d441a553ec);
+        
+    
+            var icon_84646fd8b4f0bb617387bbc9fbe27b91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6685063eb995d2c04f374680842e3b75.setIcon(icon_84646fd8b4f0bb617387bbc9fbe27b91);
+        
+    
+        var popup_14a4ee44a0798a807703edb7fd8b1b97 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32522c3bc9ae88dc9cbd216728a08e0f = $(`<div id="html_32522c3bc9ae88dc9cbd216728a08e0f" style="width: 100.0%; height: 100.0%;">Customer: 101726.0<br>Assigned Truck: TruckB6 5</div>`)[0];
+                popup_14a4ee44a0798a807703edb7fd8b1b97.setContent(html_32522c3bc9ae88dc9cbd216728a08e0f);
+            
+        
+
+        marker_6685063eb995d2c04f374680842e3b75.bindPopup(popup_14a4ee44a0798a807703edb7fd8b1b97)
+        ;
+
+        
+    
+    
+            var marker_175826fc72e37e3abcfe81326b18cd84 = L.marker(
+                [21.430755, 39.195945],
+                {}
+            ).addTo(map_d1a25db525d785484ba842d441a553ec);
+        
+    
+            var icon_6aaa36d04b770efbd4b7fdd7257a736f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_175826fc72e37e3abcfe81326b18cd84.setIcon(icon_6aaa36d04b770efbd4b7fdd7257a736f);
+        
+    
+        var popup_af3d90c966852f703ff891d765247d24 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d85cce8aa7b153964a4cfafae878e6b9 = $(`<div id="html_d85cce8aa7b153964a4cfafae878e6b9" style="width: 100.0%; height: 100.0%;">Customer: 101732.0<br>Assigned Truck: TruckB6 6</div>`)[0];
+                popup_af3d90c966852f703ff891d765247d24.setContent(html_d85cce8aa7b153964a4cfafae878e6b9);
+            
+        
+
+        marker_175826fc72e37e3abcfe81326b18cd84.bindPopup(popup_af3d90c966852f703ff891d765247d24)
+        ;
+
+        
+    
+    
+            var marker_6d519248b8e9cff18271ab304cbf3f8f = L.marker(
+                [21.45884577, 39.26184909],
+                {}
+            ).addTo(map_d1a25db525d785484ba842d441a553ec);
+        
+    
+            var icon_88748306afb0de98cfba915989dd9334 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6d519248b8e9cff18271ab304cbf3f8f.setIcon(icon_88748306afb0de98cfba915989dd9334);
+        
+    
+        var popup_46cbf8a6a9e750773c0ef808da2d8cbf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e139b9d1873a01cdfb3cf990eec1782 = $(`<div id="html_4e139b9d1873a01cdfb3cf990eec1782" style="width: 100.0%; height: 100.0%;">Customer: 101734.0<br>Assigned Truck: TruckB6 5</div>`)[0];
+                popup_46cbf8a6a9e750773c0ef808da2d8cbf.setContent(html_4e139b9d1873a01cdfb3cf990eec1782);
+            
+        
+
+        marker_6d519248b8e9cff18271ab304cbf3f8f.bindPopup(popup_46cbf8a6a9e750773c0ef808da2d8cbf)
+        ;
+
+        
+    
+    
+            var marker_8fc94490489086f25334cc44d4c49983 = L.marker(
+                [21.770426, 39.219738],
+                {}
+            ).addTo(map_d1a25db525d785484ba842d441a553ec);
+        
+    
+            var icon_d703fbaa84c02f9b82249897ecb521a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8fc94490489086f25334cc44d4c49983.setIcon(icon_d703fbaa84c02f9b82249897ecb521a6);
+        
+    
+        var popup_fc5ea627dbed682cb69cd980a043e9c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d86e5d1afe2a5638deaf0ec6cec4e2b = $(`<div id="html_4d86e5d1afe2a5638deaf0ec6cec4e2b" style="width: 100.0%; height: 100.0%;">Customer: 101765.0<br>Assigned Truck: TruckA8 1</div>`)[0];
+                popup_fc5ea627dbed682cb69cd980a043e9c8.setContent(html_4d86e5d1afe2a5638deaf0ec6cec4e2b);
+            
+        
+
+        marker_8fc94490489086f25334cc44d4c49983.bindPopup(popup_fc5ea627dbed682cb69cd980a043e9c8)
+        ;
+
+        
+    
+    
+            var marker_bc217f586f357a7db6f85243221c418c = L.marker(
+                [21.5414813, 39.2886656],
+                {}
+            ).addTo(map_d1a25db525d785484ba842d441a553ec);
+        
+    
+            var icon_695a7ecc07602aa67dd923eb6ec3dfa7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bc217f586f357a7db6f85243221c418c.setIcon(icon_695a7ecc07602aa67dd923eb6ec3dfa7);
+        
+    
+        var popup_c2fe2dc57b0f55255922b2ab997cf429 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ff301857a79de973d4a0220451f1ea8 = $(`<div id="html_1ff301857a79de973d4a0220451f1ea8" style="width: 100.0%; height: 100.0%;">Customer: 101773.0<br>Assigned Truck: TruckB6 6</div>`)[0];
+                popup_c2fe2dc57b0f55255922b2ab997cf429.setContent(html_1ff301857a79de973d4a0220451f1ea8);
+            
+        
+
+        marker_bc217f586f357a7db6f85243221c418c.bindPopup(popup_c2fe2dc57b0f55255922b2ab997cf429)
+        ;
+
+        
+    
+    
+            var marker_dfbfd13b497b5f5f24c4f3fa6d1b8c77 = L.marker(
+                [21.27643333, 39.276445],
+                {}
+            ).addTo(map_d1a25db525d785484ba842d441a553ec);
+        
+    
+            var icon_979d95eca48a3c8e51ce22c3b95cfab1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dfbfd13b497b5f5f24c4f3fa6d1b8c77.setIcon(icon_979d95eca48a3c8e51ce22c3b95cfab1);
+        
+    
+        var popup_eceb5be5340ca763868fe528b032559d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6fc5c13a9da3b34d465e4b4924c50e12 = $(`<div id="html_6fc5c13a9da3b34d465e4b4924c50e12" style="width: 100.0%; height: 100.0%;">Customer: 101894.0<br>Assigned Truck: TruckB6 6</div>`)[0];
+                popup_eceb5be5340ca763868fe528b032559d.setContent(html_6fc5c13a9da3b34d465e4b4924c50e12);
+            
+        
+
+        marker_dfbfd13b497b5f5f24c4f3fa6d1b8c77.bindPopup(popup_eceb5be5340ca763868fe528b032559d)
+        ;
+
+        
+    
+    
+            var marker_f01159e83860d8d9a4ee1a066e9ccab8 = L.marker(
+                [21.51312667, 39.25092833],
+                {}
+            ).addTo(map_d1a25db525d785484ba842d441a553ec);
+        
+    
+            var icon_fd87865a720333f4c1ee16e1d35b8f72 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f01159e83860d8d9a4ee1a066e9ccab8.setIcon(icon_fd87865a720333f4c1ee16e1d35b8f72);
+        
+    
+        var popup_337ba9e0668f44cbeb383d9471da62e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17ed619e40f3d158159628e284764eb8 = $(`<div id="html_17ed619e40f3d158159628e284764eb8" style="width: 100.0%; height: 100.0%;">Customer: 101906.0<br>Assigned Truck: TruckB6 7</div>`)[0];
+                popup_337ba9e0668f44cbeb383d9471da62e2.setContent(html_17ed619e40f3d158159628e284764eb8);
+            
+        
+
+        marker_f01159e83860d8d9a4ee1a066e9ccab8.bindPopup(popup_337ba9e0668f44cbeb383d9471da62e2)
+        ;
+
+        
+    
+    
+            var marker_396c17eafb2622315f91004d31d63580 = L.marker(
+                [21.55039, 39.205445],
+                {}
+            ).addTo(map_d1a25db525d785484ba842d441a553ec);
+        
+    
+            var icon_6ddf95347352fcf0775d00e742cd698e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_396c17eafb2622315f91004d31d63580.setIcon(icon_6ddf95347352fcf0775d00e742cd698e);
+        
+    
+        var popup_ba77a1997f81649098cb3ff2035aa671 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf4ce6ff2e417a58e56124f2283f5c50 = $(`<div id="html_cf4ce6ff2e417a58e56124f2283f5c50" style="width: 100.0%; height: 100.0%;">Customer: 101936.0<br>Assigned Truck: TruckB6 1</div>`)[0];
+                popup_ba77a1997f81649098cb3ff2035aa671.setContent(html_cf4ce6ff2e417a58e56124f2283f5c50);
+            
+        
+
+        marker_396c17eafb2622315f91004d31d63580.bindPopup(popup_ba77a1997f81649098cb3ff2035aa671)
+        ;
+
+        
+    
+    
+            var marker_9fd192300f278da315b0d5b11962b8b6 = L.marker(
+                [21.51347202, 39.20027886],
+                {}
+            ).addTo(map_d1a25db525d785484ba842d441a553ec);
+        
+    
+            var icon_606c3f5559a8e7fe25346a07df8e7b68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9fd192300f278da315b0d5b11962b8b6.setIcon(icon_606c3f5559a8e7fe25346a07df8e7b68);
+        
+    
+        var popup_fe7c793128cfd882ccba90211518b59b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06195c3e58d7bea2c75fe032f90128dc = $(`<div id="html_06195c3e58d7bea2c75fe032f90128dc" style="width: 100.0%; height: 100.0%;">Customer: 102100.0<br>Assigned Truck: TruckB6 7</div>`)[0];
+                popup_fe7c793128cfd882ccba90211518b59b.setContent(html_06195c3e58d7bea2c75fe032f90128dc);
+            
+        
+
+        marker_9fd192300f278da315b0d5b11962b8b6.bindPopup(popup_fe7c793128cfd882ccba90211518b59b)
+        ;
+
+        
+    
+    
+            var marker_e3c19c5526b38297e5417a7df45f2756 = L.marker(
+                [21.462075, 39.24696333],
+                {}
+            ).addTo(map_d1a25db525d785484ba842d441a553ec);
+        
+    
+            var icon_200d1e03380dfc984f58bd3ea18ee6fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e3c19c5526b38297e5417a7df45f2756.setIcon(icon_200d1e03380dfc984f58bd3ea18ee6fc);
+        
+    
+        var popup_2ec6db952336d572663dcf27824d777c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dca535682543d43b27766fedd37f50c0 = $(`<div id="html_dca535682543d43b27766fedd37f50c0" style="width: 100.0%; height: 100.0%;">Customer: 102309.0<br>Assigned Truck: TruckA8 1</div>`)[0];
+                popup_2ec6db952336d572663dcf27824d777c.setContent(html_dca535682543d43b27766fedd37f50c0);
+            
+        
+
+        marker_e3c19c5526b38297e5417a7df45f2756.bindPopup(popup_2ec6db952336d572663dcf27824d777c)
+        ;
+
+        
+    
+    
+            var marker_1c98054d99920dc68b6652e640008951 = L.marker(
+                [21.48383112, 39.3092635],
+                {}
+            ).addTo(map_d1a25db525d785484ba842d441a553ec);
+        
+    
+            var icon_1a1be29581c62b5ca0c61eb475fd4123 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1c98054d99920dc68b6652e640008951.setIcon(icon_1a1be29581c62b5ca0c61eb475fd4123);
+        
+    
+        var popup_30984c0470bda4a95fe88be999f269e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a19cfb8791ab77a5afe58f3eb041015e = $(`<div id="html_a19cfb8791ab77a5afe58f3eb041015e" style="width: 100.0%; height: 100.0%;">Customer: 102854.0<br>Assigned Truck: TruckB6 1</div>`)[0];
+                popup_30984c0470bda4a95fe88be999f269e1.setContent(html_a19cfb8791ab77a5afe58f3eb041015e);
+            
+        
+
+        marker_1c98054d99920dc68b6652e640008951.bindPopup(popup_30984c0470bda4a95fe88be999f269e1)
+        ;
+
+        
+    
+    
+            var marker_faf810d3852c57e1ece4f2e5e2352551 = L.marker(
+                [21.79457547, 39.11912732],
+                {}
+            ).addTo(map_d1a25db525d785484ba842d441a553ec);
+        
+    
+            var icon_efbc0bc5d0566f7bccf2b39dca79e13b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_faf810d3852c57e1ece4f2e5e2352551.setIcon(icon_efbc0bc5d0566f7bccf2b39dca79e13b);
+        
+    
+        var popup_52af6020120859ecac8c09f455c8ad7a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a66c0481699596e358b99ced455ed912 = $(`<div id="html_a66c0481699596e358b99ced455ed912" style="width: 100.0%; height: 100.0%;">Customer: 102985.0<br>Assigned Truck: TruckB6 3</div>`)[0];
+                popup_52af6020120859ecac8c09f455c8ad7a.setContent(html_a66c0481699596e358b99ced455ed912);
+            
+        
+
+        marker_faf810d3852c57e1ece4f2e5e2352551.bindPopup(popup_52af6020120859ecac8c09f455c8ad7a)
+        ;
+
+        
+    
+    
+            var marker_f694c7c619a12b65eb9a23d8e3ee01c4 = L.marker(
+                [21.62124689, 39.17101239],
+                {}
+            ).addTo(map_d1a25db525d785484ba842d441a553ec);
+        
+    
+            var icon_c740f7b9d37e84f9e0b7e633def263aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f694c7c619a12b65eb9a23d8e3ee01c4.setIcon(icon_c740f7b9d37e84f9e0b7e633def263aa);
+        
+    
+        var popup_c12507018884999a596ddef38c88a50f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bfe4e29385ee9d52b79ea38b2d9f255e = $(`<div id="html_bfe4e29385ee9d52b79ea38b2d9f255e" style="width: 100.0%; height: 100.0%;">Customer: 103345.0<br>Assigned Truck: TruckB6 7</div>`)[0];
+                popup_c12507018884999a596ddef38c88a50f.setContent(html_bfe4e29385ee9d52b79ea38b2d9f255e);
+            
+        
+
+        marker_f694c7c619a12b65eb9a23d8e3ee01c4.bindPopup(popup_c12507018884999a596ddef38c88a50f)
+        ;
+
+        
+    
+    
+            var marker_0fc5c700fa4d72db28e0deb15dac46f4 = L.marker(
+                [21.78516347, 39.09091693],
+                {}
+            ).addTo(map_d1a25db525d785484ba842d441a553ec);
+        
+    
+            var icon_24518ac411259485e9ba567d89795013 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0fc5c700fa4d72db28e0deb15dac46f4.setIcon(icon_24518ac411259485e9ba567d89795013);
+        
+    
+        var popup_f326118d973916bf67c1d78d11ac60a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b60394042b712d8e1ddf2eea9350e9aa = $(`<div id="html_b60394042b712d8e1ddf2eea9350e9aa" style="width: 100.0%; height: 100.0%;">Customer: 103514.0<br>Assigned Truck: TruckB6 2</div>`)[0];
+                popup_f326118d973916bf67c1d78d11ac60a2.setContent(html_b60394042b712d8e1ddf2eea9350e9aa);
+            
+        
+
+        marker_0fc5c700fa4d72db28e0deb15dac46f4.bindPopup(popup_f326118d973916bf67c1d78d11ac60a2)
+        ;
+
+        
+    
+    
+            var marker_bee77d6b33d1cdcc37d505c428317c30 = L.marker(
+                [21.85089667, 39.20090833],
+                {}
+            ).addTo(map_d1a25db525d785484ba842d441a553ec);
+        
+    
+            var icon_e766b37513595affa8a3716238a8fcee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bee77d6b33d1cdcc37d505c428317c30.setIcon(icon_e766b37513595affa8a3716238a8fcee);
+        
+    
+        var popup_708606a7a4c453da141223f6edfc9a4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8bd00d0b60f002e5733e2696146cc284 = $(`<div id="html_8bd00d0b60f002e5733e2696146cc284" style="width: 100.0%; height: 100.0%;">Customer: 103589.0<br>Assigned Truck: TruckB6 4</div>`)[0];
+                popup_708606a7a4c453da141223f6edfc9a4a.setContent(html_8bd00d0b60f002e5733e2696146cc284);
+            
+        
+
+        marker_bee77d6b33d1cdcc37d505c428317c30.bindPopup(popup_708606a7a4c453da141223f6edfc9a4a)
+        ;
+
+        
+    
+    
+            var marker_3bbd5a4cc9c6163906ec92a3cfba3435 = L.marker(
+                [21.55959887, 39.24909585],
+                {}
+            ).addTo(map_d1a25db525d785484ba842d441a553ec);
+        
+    
+            var icon_7b0463b87f9821e847b82ca30adebe81 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3bbd5a4cc9c6163906ec92a3cfba3435.setIcon(icon_7b0463b87f9821e847b82ca30adebe81);
+        
+    
+        var popup_101eaabf192c259436690b0bebf789f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_258c512a7a3cb6296a9313b308e544d9 = $(`<div id="html_258c512a7a3cb6296a9313b308e544d9" style="width: 100.0%; height: 100.0%;">Customer: 103836.0<br>Assigned Truck: TruckB6 6</div>`)[0];
+                popup_101eaabf192c259436690b0bebf789f0.setContent(html_258c512a7a3cb6296a9313b308e544d9);
+            
+        
+
+        marker_3bbd5a4cc9c6163906ec92a3cfba3435.bindPopup(popup_101eaabf192c259436690b0bebf789f0)
+        ;
+
+        
+    
+    
+            var marker_a7a0f2c5b0e6b46258256f154d7f3e29 = L.marker(
+                [21.78748459, 39.1762178],
+                {}
+            ).addTo(map_d1a25db525d785484ba842d441a553ec);
+        
+    
+            var icon_44f7b993ccdf1117f2de314b68be408a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a7a0f2c5b0e6b46258256f154d7f3e29.setIcon(icon_44f7b993ccdf1117f2de314b68be408a);
+        
+    
+        var popup_0cf7543eedbe62aa35afaa58ae937beb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f65b4da2a769b6d1c5311238a5ceb06 = $(`<div id="html_1f65b4da2a769b6d1c5311238a5ceb06" style="width: 100.0%; height: 100.0%;">Customer: 103947.0<br>Assigned Truck: TruckB6 3</div>`)[0];
+                popup_0cf7543eedbe62aa35afaa58ae937beb.setContent(html_1f65b4da2a769b6d1c5311238a5ceb06);
+            
+        
+
+        marker_a7a0f2c5b0e6b46258256f154d7f3e29.bindPopup(popup_0cf7543eedbe62aa35afaa58ae937beb)
+        ;
+
+        
+    
+    
+            var marker_a2e14472f1c6e4f7af77ab1d7dfd2995 = L.marker(
+                [21.455005, 39.20734667],
+                {}
+            ).addTo(map_d1a25db525d785484ba842d441a553ec);
+        
+    
+            var icon_0d139ae2f114adc7c45904bf774dc86d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a2e14472f1c6e4f7af77ab1d7dfd2995.setIcon(icon_0d139ae2f114adc7c45904bf774dc86d);
+        
+    
+        var popup_a438646a4cb8ef70c406313996f1f93c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ae443c8d30feb85d7d0d2f60a5f69c5 = $(`<div id="html_2ae443c8d30feb85d7d0d2f60a5f69c5" style="width: 100.0%; height: 100.0%;">Customer: 104174.0<br>Assigned Truck: TruckB6 6</div>`)[0];
+                popup_a438646a4cb8ef70c406313996f1f93c.setContent(html_2ae443c8d30feb85d7d0d2f60a5f69c5);
+            
+        
+
+        marker_a2e14472f1c6e4f7af77ab1d7dfd2995.bindPopup(popup_a438646a4cb8ef70c406313996f1f93c)
+        ;
+
+        
+    
+</script>
+</html>
